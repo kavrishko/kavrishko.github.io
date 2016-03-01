@@ -1,0 +1,113 @@
+html 
+{
+    -webkit-font-smoothing: antialiased;
+}
+body 
+{
+    padding: 1em 2em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    background-image: url(screenshots/kaver.jpg);
+    background-repeat: no-repeat;
+}
+h1
+{
+    color: gold;
+    font-weight: 500;
+}
+h2
+{
+    font-size: 16px;
+    color: goldenrod;
+    font-weight: lighter;
+}
+.ghost-btn
+{
+    font-weight: bolder;
+    text-decoration: none;
+    border: 4px solid;
+    border-color: goldenrod;
+    height: 36px;
+    line-height: 18px;
+    font-size: 14px;
+    color: gold;
+    background-color: black;
+    -webkit-filter: opacity(0.9);
+    padding: 0.5em 0.5em;
+}
+.ghost-btn:hover
+{
+    transition: 1s ease;
+    background-color: gold;
+    -webkit-filter: opacity(0.8);
+    color: darkred;
+}
+input 
+{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 20px;
+    width: 90px;
+    color: white
+}
+input[type="radio"] {display: none;}
+label
+{
+    font-size: 17px;
+    width: 22px;
+    height: 22px;
+    display: inline-block; 
+    color:black;
+    
+} 
+label.rb
+{
+    background-color: gold;
+    border-radius: 30px;
+    border: 2px solid darkred;
+}
+label.rb:hover
+{
+    transition: 1s ease;
+    background-color: goldenrod;
+    
+}
+input[type="radio"]:checked+label
+{
+    transition: 1s ease;
+    border-radius: 5px;
+    border: 1.5px solid rgb(0, 115, 153);
+    background-color: darkgoldenrod;
+    color: black;
+}
+table 
+{
+    background-color: rgba(150, 0, 0, 0.4);
+}
+table, td, th
+{   
+    border-collapse: 1px collapse;
+    }
+th 
+{
+    background-color: rgba(255, 0, 0, 0.3);
+    height: 40px;
+    width: 75px;
+}
+td 
+{
+    font-size: 16px;
+}
+form 
+{
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    padding: inherit;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 4px;
+}
+

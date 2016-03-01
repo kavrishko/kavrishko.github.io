@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kavrishko calc (LR5.2_JS)</title>
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <form name = "calc">
+            <h1>«Kavrishko»</h1>
+            <h2>Узбекское телевидение во время профилактики показывает ковёр</h2>
+                Первый:
+                <input name = "number1" value = "7" maxlength=12/>
+                <p> Понятие:
+                <input type="radio" name="operation" value="+" id="+" checked/>
+                    <label for="+" class="rb">+</label>
+                <input type="radio" name="operation" value="-" id="-"/>
+                    <label for="-" class="rb">-</label>
+                <input type="radio" name="operation" value="*" id="*"/>
+                    <label for="*" class="rb">×</label>
+                <input type="radio" name="operation" value="/" id="/"/>
+                    <label for ="/" class="rb">÷</label></p>
+                <p>Второй: 
+                <input name = "number2" value = "3" maxlength=12/></p>
+            <input type="button" class="ghost-btn" value="Calculate" onclick=goto_resultPage(calc)>
+            <!--<a href="#" onclick="goto_resultPage(calc);" class="ghost-btn">Calculate</a>-->
+        </form>
+    </body>
+</html>
